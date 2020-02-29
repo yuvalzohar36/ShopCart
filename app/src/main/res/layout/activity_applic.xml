@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:id="@+id/linear_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TitleTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:text="Main Shopping cart"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/Uncheck_all"
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Clear all"
+            android:textSize="7dp" />
+
+
+
+
+            <EditText
+                android:id="@+id/addeditText"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:ems="10"
+                android:hint="Name it"
+                android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/Quantity"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Set Quantity"
+            android:inputType="textPersonName"
+            android:maxLength="5" />
+
+
+        <Button
+            android:id="@+id/AddBtn"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+
+    </LinearLayout>
+</ScrollView>
